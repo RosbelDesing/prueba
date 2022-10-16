@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-image: url(banner.png);
+    background-image: url('banner.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -150,7 +150,7 @@ header .header-container .nav-bar ul li:hover .menu-link::before {
 @media (max-width:600px) {
     header .wave{
         position:absolute;
-        bottom: -40px;
+        bottom: -60px;
         width: 100%;
     }
 }
