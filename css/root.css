@@ -1,0 +1,36 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style:none;
+}
+
+*::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-1:#8ECAE6;
+    --color-2:#219EBC;
+    --color-3:#023047;
+    --color-4:#FFB703;
+    --color-5:#FB8500;
+    --color-6:#fff;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+section{
+    scroll-margin-top: 50px;
+}
+
+p{
+    scroll-margin-top: 50px;
+}
